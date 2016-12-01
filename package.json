@@ -1,0 +1,22 @@
+{
+  "name": "mirrorhelper",
+  "version": "1.0.0",
+  "description": "MQTT message helper to magic mirror",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matst80/MagicMirror_messagehelper.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matst80/MagicMirror_messagehelper/issues"
+  },
+  "homepage": "https://github.com/matst80/MagicMirror_messagehelper#readme"
+}

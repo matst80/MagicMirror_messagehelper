@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#1b5c53" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <style>
+        
+        body {
+            margin: 15px;
+            font-family: 'Open Sans Condensed', Verdana, sans-serif;
+		font-weight:300;
+        }
+
+	body {
+		background: rgba(4,51,2,1);
+		background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(27,92,83,1) 100%);
+	}
+        
+        input[type="submit"],
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            margin-bottom: 20px;
+            background: rgba(0,0,0,0.5);
+            border: solid 1px #666;
+            color: #fff;
+            padding: 18px;
+            font-size: 24px;
+		font-weight:300;
+
+            font-family: 'Open Sans Condensed', Verdana, sans-serif;
+		border-radius:3px;
+		box-shadow:1px 1px 7px 0px rgba(0,0,0,0.8);
+        }
+
+	select {
+		-webkit-appearance: none;
+	}
+        
+        input[type="submit"] {
+            margin: 30px auto;
+            margin-left: 10%;
+            padding: 30px;
+            width: 80%;
+	    -webkit-appearance: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input id="message" type="text" name="message" placeholder="Ditt meddelande" required="true" />
+        <select name="main">
+            <option value="0">Lilla</option>
+            <option value="1">Stora</option>
+        </select>
+        <input type="submit" value="Visa" />
+    </form>
+	<script type="text/javascript">
+		window.onload= function() {
+			document.getElementById('message').focus();
+		};
+	</script>
+</body>
+
+</html>
