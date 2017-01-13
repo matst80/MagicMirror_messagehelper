@@ -28,7 +28,7 @@ app.get('/', function(req, res) {
         });
     }
 })
-
+/*
 cron.schedule('* * 6 * *', function() {
 	console.log('morgon');
     client.publish("/smarthome/mirrormain", "God morgon!");
@@ -55,7 +55,7 @@ cron.schedule('* * 22 * *', function() {
 
     client.publish("/smarthome/mirrormain", "Godnatt!");
 });
-
+*/
 app.use(express.static('public'))
 
 client.on('connect', function() {
@@ -66,5 +66,5 @@ client.on('connect', function() {
 
 
 app.listen(80, function() {
-    console.log('Example app listening on port 3000!')
+    console.log('Example app listening on port 80!')
 })
